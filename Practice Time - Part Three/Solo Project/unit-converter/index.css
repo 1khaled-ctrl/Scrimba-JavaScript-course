@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef1f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 420px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    background-color: white;
+}
+
+.header {
+    background-color: #6c4ff2;
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+#input-el {
+    width: 120px;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgba(255,255,255,0.6);
+    background-color: transparent;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#convert-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    color: #6c4ff2;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#convert-btn:hover {
+    background-color: #f0edff;
+}
+
+.results {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.result-box {
+    background-color: #f7f7fb;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.result-box h2 {
+    font-size: 15px;
+    color: #333;
+    margin: 0 0 8px 0;
+}
+
+.result-box p {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+}

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="card">
+            <h1>Generate a <span class="highlight">random password</span></h1>
+            <p class="subtitle">Never use an insecure password again.</p>
+
+            <div class="options">
+                <label>
+                    Length: <span id="length-value">12</span>
+                    <input type="range" id="length-slider" min="4" max="32" value="12">
+                </label>
+
+                <label>
+                    <input type="checkbox" id="numbers-toggle" checked>
+                    Include numbers
+                </label>
+
+                <label>
+                    <input type="checkbox" id="symbols-toggle" checked>
+                    Include symbols
+                </label>
+            </div>
+
+            <button id="generate-btn">Generate passwords</button>
+
+            <div class="passwords">
+                <div class="password" id="password1"></div>
+                <div class="password" id="password2"></div>
+            </div>
+            <p id="copy-msg" class="copy-msg"></p>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
