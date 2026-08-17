@@ -49,4 +49,4 @@ This repo contains my progress and projects from Scrimba's **Learn JavaScript** 
 
 ## Status
 
-🚧 In progress — actively working through challenges and projects.
+Done with course.
